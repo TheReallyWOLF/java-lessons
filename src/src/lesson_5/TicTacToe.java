@@ -19,7 +19,7 @@ public class TicTacToe {
     private static final Scanner SCANNER = new Scanner(System.in); // Сканер для ввода
     private static final Random RANDOM = new Random(); // Генератор случайных чисел
 
-    public static void main(String[] args) {
+    static void main() {
         // Ввод размера поля с проверкой (3-9)
         do {
             System.out.print("Введите размер поля (3-9): ");

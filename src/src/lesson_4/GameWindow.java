@@ -22,7 +22,7 @@ public class GameWindow extends JFrame {
     private static float drop_v = 200;
     private static int score = 0;
 
-    static void main(String[] args) throws IOException {
+    static void main() throws IOException {
         background = ImageIO.read(Objects.requireNonNull(GameWindow.class.getResourceAsStream("background.png")));
         game_over = ImageIO.read(Objects.requireNonNull(GameWindow.class.getResourceAsStream("game_over.png")));
         drop = ImageIO.read(Objects.requireNonNull(GameWindow.class.getResourceAsStream("drop.png")));
